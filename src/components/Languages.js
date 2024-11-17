@@ -8,7 +8,7 @@ function Languages() {
         <p><strong>Lengua Materna:</strong> Español</p>
       </div>
       <div>
-        <p><strong>Otro(s) idioma(s):</strong></p>
+        <h2>Otros idiomas:</h2>
         <ul>
           <li><span>Inglés</span> - B2</li>
           <li><span>Alemán</span> - Principiante</li>
