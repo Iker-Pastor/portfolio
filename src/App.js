@@ -17,7 +17,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/portfolio">
       <header>
       <h1>Iker Pastor Ros</h1>
       <p>Desarrollador de Software</p>
