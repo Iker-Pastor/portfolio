@@ -1,10 +1,12 @@
 import React,{ useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './components/Home';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Languages from './components/Languages';
-import Contact from './components/Contact';
+import Home from './pages/Home';
+import Experience from './pages/Experience';
+import Education from './pages/Education';
+import Languages from './pages/Languages';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import ProjectList from './components/ProjectList';
 import './App.css';
 
 function App() {
@@ -26,7 +28,8 @@ function App() {
             <li><Link to="/">Inicio</Link></li>
             <li><Link to="/experience">Experiencia</Link></li>
             <li><Link to="/education">Educación</Link></li>
-            <li><Link to="/languages">Idiomas</Link></li>
+            <li><Link to="/languages">Idiomas</Link></li>          
+            <li><Link to="/projects">Proyectos</Link></li>
             <li><Link to ="/contact">Contacto</Link></li>
           </ul>
         </nav>
@@ -38,7 +41,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/education" element={<Education />} />
-        <Route path="/languages" element={<Languages />} />
+        <Route path="/languages" element={<Languages />} />       
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:language" element={<ProjectList />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 

@@ -10,7 +10,8 @@ function Languages() {
       <div>
         <h2>Otros idiomas:</h2>
         <ul>
-          <li><span>Inglés</span> - B2</li>
+          <li><span>Inglés</span> - B2</li>         
+          <li><span>Valenciano</span> - B1</li>
           <li><span>Alemán</span> - Principiante</li>
         </ul>
       </div>
