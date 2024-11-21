@@ -1,10 +1,11 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
+import FantasyLogo from '../assets/fantasy.jpg'
 
 const projectsData = {
-  react: ["Project 1", "Project 2", "Project 3"],
-  python: ["Data Analysis", "Machine Learning"],
-  csharp: ["Game Development", "Desktop App"],
+  csharp: [
+    { name: "Fantasy Calculator", image: FantasyLogo, route: "/projects/csharp/fantasy_calculator" },
+  ],
 };
 
 const containerStyle = {
@@ -13,25 +14,36 @@ const containerStyle = {
   gap: '10px',
 };
 
-function ProjectList (){
+function ProjectList() {
   const { language } = useParams();
+  const navigate = useNavigate();
   const projects = projectsData[language.toLowerCase()] || [];
+
+  const handleProjectClick = (route) => {
+    navigate(route);
+  };
 
   return (
     <section className="section">
       <h2>Proyectos de {language}</h2>
       {projects.length > 0 ? (
         <div style={containerStyle}>
-          {projects.map((project, index) => (
-            <p>{project}</p>
+          {projects.map((project) => (
+            <div key={project.name} style={{ textAlign: 'center' }}>
+              <img
+                src={project.image}
+                style={{ cursor: 'pointer', width: '100%', height: 'auto' }}
+                onClick={() => handleProjectClick(project.route)}
+              />
+              <p>{project.name}</p>
+            </div>
           ))}
-      </div>
+        </div>
       ) : (
-        <p>No projects found for this language.</p>
+        <p>No hay proyectos disponibles para este lenguaje.</p>
       )}
     </section>
   );
-};
-
+}
 
 export default ProjectList;

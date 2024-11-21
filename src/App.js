@@ -7,6 +7,7 @@ import Languages from './pages/Languages';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import ProjectList from './components/ProjectList';
+import FantasyCalculator from './pages/projects/csharp/fantasy_calculator';
 import './App.css';
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:language" element={<ProjectList />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects/csharp/fantasy_calculator" element={<FantasyCalculator />} />
       </Routes>
 
       

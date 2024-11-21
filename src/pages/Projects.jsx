@@ -2,10 +2,11 @@ import React from 'react';
 import LanguageIcon from '../components/LanguageIcon';
 
 const languages = [
+  { name: "C Sharp", iconClass: "devicon-csharp-plain colored" },
   { name: "React", iconClass: "devicon-react-plain colored" },
   { name: "Python", iconClass: "devicon-python-plain colored" },
-  { name: "C Sharp", iconClass: "devicon-csharp-plain colored" },
   { name: "Kotlin", iconClass: "devicon-kotlin-plain colored" },
+  { name: "Java", iconClass: "devicon-java-plain colored" },
 ];
 
 const containerStyle = {
