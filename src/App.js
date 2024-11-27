@@ -8,6 +8,8 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import ProjectList from './components/ProjectList';
 import FantasyCalculator from './pages/projects/csharp/fantasy_calculator';
+import TorneoMaker from './pages/projects/kotlin/torneo_maker';
+import Portfolio from './pages/projects/react/portfolio';
 import './App.css';
 
 function App() {
@@ -47,6 +49,8 @@ function App() {
         <Route path="/projects/:language" element={<ProjectList />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects/csharp/fantasy_calculator" element={<FantasyCalculator />} />
+        <Route path="/projects/kotlin/torneo_maker" element={<TorneoMaker />} />
+        <Route path="/projects/react/portfolio" element={<Portfolio />} />
       </Routes>
 
       

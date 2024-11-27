@@ -93,9 +93,9 @@ function FantasyCalculator() {
         <pre>
           <code>
             CREATE TABLE IF NOT EXISTS personas (<br />
-              id INTEGER PRIMARY KEY AUTOINCREMENT,<br />
-              nombre TEXT UNIQUE NOT NULL,<br />
-              dinero INTEGER NOT NULL<br />
+            id INTEGER PRIMARY KEY AUTOINCREMENT,<br />
+            nombre TEXT UNIQUE NOT NULL,<br />
+            dinero INTEGER NOT NULL<br />
             );
           </code>
         </pre>
@@ -114,10 +114,10 @@ function FantasyCalculator() {
         <pre>
           <code>
             CREATE TABLE IF NOT EXISTS transacciones (<br />
-              id INTEGER PRIMARY KEY AUTOINCREMENT,<br />
-              pagador TEXT NOT NULL,<br />
-              beneficiario TEXT NOT NULL,<br />
-              importe INTEGER NOT NULL<br />
+            id INTEGER PRIMARY KEY AUTOINCREMENT,<br />
+            pagador TEXT NOT NULL,<br />
+            beneficiario TEXT NOT NULL,<br />
+            importe INTEGER NOT NULL<br />
             );
           </code>
         </pre>
@@ -141,7 +141,7 @@ function FantasyCalculator() {
       <div>
         <h3>Arquitectura</h3>
         <p>
-          La aplicación utiliza la arquitectura <strong>MVVM</strong> (Model-View-ViewModel) 
+          La aplicación utiliza la arquitectura <strong>MVVM</strong> (Model-View-ViewModel)
           para mantener una separación clara entre:
         </p>
         <ul>

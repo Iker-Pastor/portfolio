@@ -1,11 +1,19 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import FantasyLogo from '../assets/fantasy.jpg'
+import FantasyLogo from '../assets/projects/csharp/fantasy_calculator/fantasy.jpg'
+import TorneoMakerIcon from '../assets/projects/kotlin/torneo_maker/torneomakerIcon.png'
+import PortfolioIcon from '../assets/projects/react/portfolio.png'
 
 const projectsData = {
   csharp: [
     { name: "Fantasy Calculator", image: FantasyLogo, route: "/projects/csharp/fantasy_calculator" },
   ],
+  kotlin: [
+    { name: "Torneo Maker", image: TorneoMakerIcon, route: "/projects/kotlin/torneo_maker" },
+  ],
+  react: [
+    { name: "Portfolio", image: PortfolioIcon, route: "/projects/react/portfolio"}
+  ]
 };
 
 const containerStyle = {
