@@ -158,7 +158,17 @@ function FantasyCalculator() {
           y manejan los datos financieros en este ámbito.
         </p>
       </div>
+      <div className="center-container">
+      <a
+        href={`${process.env.PUBLIC_URL}/assets/downloads/Fantasy_Calculator.zip`}
+        download="Fantasy_Calculator.zip"
+        className="download-link"
+      >
+        Descargar Fantasy Calculator
+      </a>
+      </div>
     </section>
+    
   );
 }
 

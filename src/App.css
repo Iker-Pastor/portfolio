@@ -196,3 +196,95 @@ footer {
   background-color: #f5f5f5;
   color: #555;
 }
+
+.download-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center; /* Asegura que el texto esté centrado dentro del botón */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.download-link:hover {
+  background-color: #0056b3; /* Un efecto hover para el enlace */
+}
+
+/* Para centrar el enlace en el div */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para pantallas grandes (por defecto están aquí) */
+/* Ya están definidos en tu archivo actual */
+
+/* Ajustes para pantallas medianas (tabletas) */
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section {
+    padding: 30px 15px;
+    max-width: 100%;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+}
+
+/* Ajustes para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #mode-toggle {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section {
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+
+  .section h2 {
+    font-size: 20px;
+  }
+
+  .section div {
+    padding: 10px;
+  }
+
+  footer {
+    font-size: 10px;
+    text-align: center;
+  }
+}

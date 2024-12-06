@@ -92,6 +92,15 @@ function TorneoMaker() {
                     en línea y la implementación de un buscador. Estas ampliaciones incrementarían aún más su utilidad y potencial.
                 </p>
             </div>
+            <div className="center-container">
+                <a
+                href={`${process.env.PUBLIC_URL}/assets/downloads/Torneo_Maker.zip`}
+                download="Torneo_Maker.zip"
+                className="download-link"
+                >
+                 Descargar Torneo Maker
+            </a>
+            </div>
         </section>
     );
 }
