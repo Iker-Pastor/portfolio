@@ -220,9 +220,6 @@ footer {
   align-items: center;
 }
 
-/* Estilos para pantallas grandes (por defecto están aquí) */
-/* Ya están definidos en tu archivo actual */
-
 /* Ajustes para pantallas medianas (tabletas) */
 @media (max-width: 1024px) {
   header {
@@ -247,6 +244,18 @@ footer {
 
   .section h2 {
     font-size: 24px;
+  }
+
+  /* Hacer que los divs sean más pequeños en pantallas medianas */
+  .section div {
+    padding: 12px;
+    max-width: 90%;
+  }
+
+  /* Hacer los videos responsivos */
+  .section video {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -281,10 +290,17 @@ footer {
 
   .section div {
     padding: 10px;
+    max-width: 100%;
   }
 
   footer {
     font-size: 10px;
     text-align: center;
+  }
+
+  /* Hacer que los videos sean completamente responsivos */
+  .section video {
+    width: 100%;
+    height: auto;
   }
 }
