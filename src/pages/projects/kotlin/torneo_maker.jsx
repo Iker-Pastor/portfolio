@@ -44,20 +44,6 @@ function TorneoMaker() {
                 </ul>
             </div>
             <div>
-                <h3>Diagrama relacional</h3>
-                <pre>
-                    {`
-CompeticionesEntity (ID, Nombre, Tipo)
-    ↑ 1:N
-ParticipantesEntity (ID, ID_Competicion, ID_Persona)
-    ↑ N:1                 ↑ N:1
-PartidosEntity (ID, ID_Competicion, ID_Local, ID_Visitante, Puntaje_Local, Puntaje_Visitante)
-    ↑ 1:N                 ↑ 1:N
-PersonasEntity (ID, Nombre, Apellido)
-                    `}
-                </pre>
-            </div>
-            <div>
                 <h3>Arquitectura</h3>
                 <p>
                     La aplicación implementa la arquitectura <strong>MVVM (Modelo-Vista-ViewModel)</strong>, 
@@ -66,7 +52,6 @@ PersonasEntity (ID, Nombre, Apellido)
                 <ul>
                     <li>Usa <strong>Dagger</strong> para gestionar dependencias.</li>
                     <li>Jetpack Compose para una interfaz declarativa y fluida.</li>
-                    <li>Comunicación eficiente entre ViewModels mediante un EventBus.</li>
                 </ul>
             </div>
             <div>

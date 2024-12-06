@@ -87,56 +87,8 @@ function FantasyCalculator() {
         <h3>Base de datos</h3>
         <p>
           La aplicación utiliza <strong>SQLite</strong> como sistema de gestión
-          de bases de datos. Se diseñaron dos tablas principales:
+          de bases de datos.
         </p>
-        <strong>1. Tabla de personas:</strong>
-        <pre>
-          <code>
-            CREATE TABLE IF NOT EXISTS personas (<br />
-            id INTEGER PRIMARY KEY AUTOINCREMENT,<br />
-            nombre TEXT UNIQUE NOT NULL,<br />
-            dinero INTEGER NOT NULL<br />
-            );
-          </code>
-        </pre>
-        <ul>
-          <li>
-            <strong>id:</strong> Identificador único de cada persona.
-          </li>
-          <li>
-            <strong>nombre:</strong> Nombre del participante (único y no nulo).
-          </li>
-          <li>
-            <strong>dinero:</strong> Saldo financiero del participante.
-          </li>
-        </ul>
-        <strong>2. Tabla de transacciones:</strong>
-        <pre>
-          <code>
-            CREATE TABLE IF NOT EXISTS transacciones (<br />
-            id INTEGER PRIMARY KEY AUTOINCREMENT,<br />
-            pagador TEXT NOT NULL,<br />
-            beneficiario TEXT NOT NULL,<br />
-            importe INTEGER NOT NULL<br />
-            );
-          </code>
-        </pre>
-        <ul>
-          <li>
-            <strong>id:</strong> Identificador único de cada transacción.
-          </li>
-          <li>
-            <strong>pagador:</strong> Nombre del participante que realiza el
-            pago.
-          </li>
-          <li>
-            <strong>beneficiario:</strong> Nombre del participante que recibe el
-            pago.
-          </li>
-          <li>
-            <strong>importe:</strong> Cantidad transferida.
-          </li>
-        </ul>
       </div>
       <div>
         <h3>Arquitectura</h3>
