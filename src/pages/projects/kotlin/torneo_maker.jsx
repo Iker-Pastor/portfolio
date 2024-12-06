@@ -66,8 +66,6 @@ function TorneoMaker() {
             <div>
                 <h3>Video Demostrativo del Funcionamiento</h3>
                 <iframe 
-                    width="640" 
-                    height="360" 
                     src="https://youtu.be/8bfP6FZG7V8" 
                     title="Torneo Maker"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

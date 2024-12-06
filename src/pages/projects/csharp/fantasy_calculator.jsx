@@ -125,8 +125,6 @@ function FantasyCalculator() {
       <div>
                 <h3>Video Demostrativo del Funcionamiento</h3>
                 <iframe 
-                    width="640" 
-                    height="360" 
                     src="https://youtu.be/fhepCAgNR4Q" 
                     title="Fantasy Calculator"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
