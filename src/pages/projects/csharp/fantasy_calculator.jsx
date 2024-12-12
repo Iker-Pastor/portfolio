@@ -123,16 +123,17 @@ function FantasyCalculator() {
         </ol>
       </div>
       <div>
-                <h3>Video Demostrativo del Funcionamiento</h3>
-                <iframe 
-                    src="https://www.youtube.com/watch?v=fhepCAgNR4Q" 
-                    title="Fantasy Calculator"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen>
-                </iframe>
-            </div>
-      <div>
-            <a href="https://www.youtube.com/watch?v=fhepCAgNR4Q">Enlace</a>
+        <h3>Video Demostrativo del Funcionamiento</h3>
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/fhepCAgNR4Q?si=4fk3iGAyUvjpwSiO" 
+        title="Fantasy Calculator" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+        </iframe>
       </div>
       <div>
         <h3>Beneficios</h3>

@@ -65,19 +65,18 @@ function TorneoMaker() {
             </div>
             <div>
                 <h3>Video Demostrativo del Funcionamiento</h3>
-                
                 <iframe 
-                    src="https://www.youtube.com/watch?v=8bfP6FZG7V8&t=13s" 
-                    title="Torneo Maker"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen>
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/8bfP6FZG7V8?si=AvBO_uCvBgjU2dbB" 
+                title="Torneo Maker" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+
                 </iframe>
             </div>
             
-            <div>
-                <a href="https://www.youtube.com/watch?v=8bfP6FZG7V8&t=13s">Enlace</a>
-            </div>
-
             <div>
                 <h3>Beneficios</h3>
                 <ul>
