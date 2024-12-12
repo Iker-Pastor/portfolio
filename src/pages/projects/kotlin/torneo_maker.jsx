@@ -65,6 +65,7 @@ function TorneoMaker() {
             </div>
             <div>
                 <h3>Video Demostrativo del Funcionamiento</h3>
+                
                 <iframe 
                     src="https://www.youtube.com/watch?v=8bfP6FZG7V8&t=13s" 
                     title="Torneo Maker"
@@ -72,6 +73,11 @@ function TorneoMaker() {
                     allowFullScreen>
                 </iframe>
             </div>
+            
+            <div>
+                <a href="https://www.youtube.com/watch?v=8bfP6FZG7V8&t=13s">Enlace</a>
+            </div>
+
             <div>
                 <h3>Beneficios</h3>
                 <ul>
