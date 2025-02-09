@@ -10,6 +10,7 @@ import ProjectList from './components/ProjectList';
 import FantasyCalculator from './pages/projects/csharp/fantasy_calculator';
 import TorneoMaker from './pages/projects/kotlin/torneo_maker';
 import Portfolio from './pages/projects/react/portfolio';
+import DescargaYoutube from './pages/projects/python/descarga_youtube';
 import './App.css';
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
         <Route path="/projects/csharp/fantasy_calculator" element={<FantasyCalculator />} />
         <Route path="/projects/kotlin/torneo_maker" element={<TorneoMaker />} />
         <Route path="/projects/react/portfolio" element={<Portfolio />} />
+        <Route path="/projects/python/descarga_youtube" element={<DescargaYoutube/>} />
       </Routes>
 
       

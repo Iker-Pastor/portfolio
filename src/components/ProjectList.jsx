@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import FantasyLogo from '../assets/projects/csharp/fantasy_calculator/fantasy.jpg'
 import TorneoMakerIcon from '../assets/projects/kotlin/torneo_maker/torneomakerIcon.png'
 import PortfolioIcon from '../assets/projects/react/portfolio.png'
+import DescargaYoutubeIcon from '../assets/projects/python/descarga_youtube/descargayoutube.ico';
 
 const projectsData = {
   csharp: [
@@ -13,6 +14,9 @@ const projectsData = {
   ],
   react: [
     { name: "Portfolio", image: PortfolioIcon, route: "/projects/react/portfolio"}
+  ],
+  python:[
+    { name: "Descarga Youtube", image: DescargaYoutubeIcon, route: "/projects/python/descarga_youtube"},
   ]
 };
 
