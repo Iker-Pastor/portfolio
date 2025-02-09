@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8f55a951.css",
-    "main.js": "/portfolio/static/js/main.dd8dfe65.js",
+    "main.js": "/portfolio/static/js/main.1cb407a3.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.43181477db865aa6b0e7.png",
     "static/media/torneomakerIcon.png": "/portfolio/static/media/torneomakerIcon.7e20ad05bbae03730155.png",
     "static/media/fantasy.jpg": "/portfolio/static/media/fantasy.5b518e099a9570a7a09d.jpg",
+    "static/media/descargayoutube.ico": "/portfolio/static/media/descargayoutube.507bf6847665864c1d95.ico",
     "index.html": "/portfolio/index.html",
     "main.8f55a951.css.map": "/portfolio/static/css/main.8f55a951.css.map",
-    "main.dd8dfe65.js.map": "/portfolio/static/js/main.dd8dfe65.js.map",
+    "main.1cb407a3.js.map": "/portfolio/static/js/main.1cb407a3.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f55a951.css",
-    "static/js/main.dd8dfe65.js"
+    "static/js/main.1cb407a3.js"
   ]
 }
